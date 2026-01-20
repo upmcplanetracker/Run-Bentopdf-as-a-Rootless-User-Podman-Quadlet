@@ -1,7 +1,7 @@
 BentoPDF Podman User Quadlet
 ============================
 
-**Disclaimer:** I am not affiliated with, associated, authorized, endorsed by, or in any way officially connected with the BentoPDF project.
+**Disclaimer:** I am not affiliated with, associated, authorized, endorsed by, or in any way officially connected with the BentoPDF project. This should be a drop in replacement for a Docker Compose file but, as always, backup any data you don't want to lose before trying this.
 
 This guide demonstrates how to deploy **BentoPDF**—a privacy-first, client-side PDF toolkit—as a **User (Rootless) Quadlet** on Ubuntu 25.10.
 
