@@ -1,0 +1,21 @@
+[Unit]
+Description=BentoPDF Service
+After=network-online.target
+Wants=network-online.target
+
+[Container]
+Image=docker.io/bentopdf/bentopdf:latest
+ContainerName=bentopdf
+AutoUpdate=registry
+
+PublishPort=0.0.0.0:8080:8080
+
+# Environment Variables
+Environment=TZ=America/New_York
+
+[Service]
+Restart=on-failure
+TimeoutStartSec=900
+
+[Install]
+WantedBy=default.target
